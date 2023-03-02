@@ -3,6 +3,7 @@
  */
 package com.example.yahoo.util;
 
+
 import jp.co.yahoo.adssearchapi.v10.YahooJapanAdsApiClient;
 
 import java.time.LocalDateTime;

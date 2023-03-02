@@ -23,10 +23,10 @@
 <!--	</properties>-->
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-data-jpa</artifactId>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
@@ -63,18 +63,24 @@
 			<version>4.1.0</version>
 		</dependency>
 
+<!--		<dependency>-->
+<!--			<groupId>jp.co.yahoo.api-ads</groupId>-->
+<!--			<artifactId>ads-search-api-lib</artifactId>-->
+<!--			<version>10.38.0</version>-->
+<!--		</dependency>-->
+
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
 			<version>2.0.0-alpha6</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/jp.co.yahoo.api-ads/ads-display-api-lib -->
-<!--		<dependency>-->
-<!--			<groupId>jp.co.yahoo.api-ads</groupId>-->
-<!--			<artifactId>ads-display-api-lib</artifactId>-->
-<!--			<version>4.1.0</version>-->
-<!--		</dependency>-->
+<!--		 https://mvnrepository.com/artifact/jp.co.yahoo.api-ads/ads-display-api-lib-->
+		<dependency>
+			<groupId>jp.co.yahoo.api-ads</groupId>
+			<artifactId>ads-display-api-lib</artifactId>
+			<version>4.1.0</version>
+		</dependency>
 
 
 	</dependencies>
